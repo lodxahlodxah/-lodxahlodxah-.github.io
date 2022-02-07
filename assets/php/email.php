@@ -1,8 +1,8 @@
 <?php
 mb_internal_encoding("UTF-8");
 
-$to = 'hello@example.com';
-$subject = 'Message from Cryptex';
+$to = 'hithemestarz@gmail.com';
+$subject = 'Message from Inovo';
 
 $name = "";
 $email = "";
@@ -51,5 +51,5 @@ mb_send_mail($to, $subject, $body, $headers);
     echo '<div class="status-icon valid"><i class="fa fa-check"></i></div>';
 }
 else{
-    echo '<div class="status-icon invalid"><i class="fa fa-times"></i></div>';
+    echo '<div class="status-icon invalid"><i class="fa fa-close"></i></div>';
 }
